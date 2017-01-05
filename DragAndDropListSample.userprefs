@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="iOS/DragAndDropListSample.iOS.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Renderers/DragAndDropViewCellRenderer.cs">
+    <Files>
+      <File FileName="iOS/Renderers/DragAndDropViewCellRenderer.cs" Line="152" Column="56" />
+      <File FileName="iOS/Renderers/DragAndDropListViewRenderer.cs" Line="1" Column="1" />
+      <File FileName="Droid/Renderers/DragAndDropViewCellRenderer.cs" Line="1" Column="1" />
+      <File FileName="Droid/Renderers/DragAndDropListViewRenderer.cs" Line="1" Column="1" />
+      <File FileName="DragAndDropListSample.cs" Line="1" Column="1" />
+      <File FileName="Controls/DraggableListView.cs" Line="1" Column="1" />
+      <File FileName="Controls/DraggableViewCell.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

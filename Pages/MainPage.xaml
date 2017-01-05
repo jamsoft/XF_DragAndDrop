@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  xmlns:controls="clr-namespace:DragAndDropListSample;assembly=DragAndDropListSample" x:Class="DragAndDropListSample.MainPage">
+	<ContentPage.Content>
+	<StackLayout>
+	<StackLayout Orientation="Horizontal">
+	   <controls:DraggableListView HasUnevenRows="true" ItemsSource="{Binding Items1}"  BackgroundColor="White">
+            <controls:DraggableListView.ItemTemplate>
+                 <DataTemplate>
+                   <controls:DraggableViewCell> 
+                      <StackLayout Orientation="Horizontal">
+                       <Image Source="icon.png"  HeightRequest="{Binding Height}" />
+                        <Label HeightRequest="{Binding Height}" Text="{Binding Name}" VerticalOptions="CenterAndExpand"  Font="Small" TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                     </StackLayout>
+                   </controls:DraggableViewCell> 
+                </DataTemplate>
+            </controls:DraggableListView.ItemTemplate>
+        </controls:DraggableListView>
+        <controls:DraggableListView HasUnevenRows="true" ItemsSource="{Binding Items2}"  BackgroundColor="Aqua">
+            <controls:DraggableListView.ItemTemplate>
+                <DataTemplate>
+                   <controls:DraggableViewCell> 
+                     <StackLayout Orientation="Horizontal">
+                       <Image Source="icon.png"  HeightRequest="{Binding Height}"  />
+                        <Label HeightRequest="{Binding Height}" Text="{Binding Name}" VerticalOptions="CenterAndExpand"  Font="Small" TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                     
+                     </StackLayout>
+                   </controls:DraggableViewCell> 
+                </DataTemplate>
+            </controls:DraggableListView.ItemTemplate>
+        </controls:DraggableListView>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+	   <controls:DraggableListView HasUnevenRows="true" ItemsSource="{Binding Items3}"  BackgroundColor="Red">
+            <controls:DraggableListView.ItemTemplate>
+                 <DataTemplate>
+                   <controls:DraggableViewCell> 
+                       <StackLayout Orientation="Horizontal">
+                       <Image Source="icon.png"  HeightRequest="{Binding Height}" />
+                        <Label HeightRequest="{Binding Height}" VerticalOptions="CenterAndExpand"  Text="{Binding Name}" Font="Small" TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                     </StackLayout>
+                   </controls:DraggableViewCell> 
+                </DataTemplate>
+            </controls:DraggableListView.ItemTemplate>
+        </controls:DraggableListView>
+        <controls:DraggableListView HasUnevenRows="true" ItemsSource="{Binding Items4}" BackgroundColor="Navy">
+            <controls:DraggableListView.ItemTemplate>
+                <DataTemplate>
+                   <controls:DraggableViewCell>                       
+                     <StackLayout Orientation="Horizontal">
+                       <Image Source="icon.png"  HeightRequest="{Binding Height}" />
+                        <Label HeightRequest="{Binding Height}" VerticalOptions="CenterAndExpand" Text="{Binding Name}" Font="Small" TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                     </StackLayout>
+                    
+                   </controls:DraggableViewCell> 
+                </DataTemplate>
+            </controls:DraggableListView.ItemTemplate>
+        </controls:DraggableListView>
+      </StackLayout>
+	</StackLayout>
+	 
+	</ContentPage.Content>
+</ContentPage>
